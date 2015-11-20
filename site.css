@@ -1,0 +1,32 @@
+/* fonts */
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,700);
+
+html {border-top:5px solid #139f85;}
+body {font-family:"Raleway", Helvetica, Arial; font-size:1.125em; line-height:1.5em; font-weight:300;}
+
+h1 {margin:0; font-size:3.125em; color:#444; text-transform:uppercase; font-weight:100;}
+h1 strong {font-weight:700; color:#139f85;}
+h1:after {content:""; margin:0.65em 0 0.5em; display:block; height:10px; background:url('images/div.svg') no-repeat;}
+h2 {display:block; font-weight:100; text-transform:capitalize; font-size:1.75em;}
+
+a {color:#139f85; text-decoration: none; border-bottom:1px dashed #139f85;
+    -webkit-transition:all 250ms ease-in-out;
+       -moz-transition:all 250ms ease-in-out;
+            transition:all 250ms ease-in-out;
+}
+a:hover {background: #139f85; color:#fff;}
+
+.wrapper {margin:4em auto; width:100%;}
+.container {padding:0 1em;}
+
+.icons {margin:2em 0 0; padding:0; }
+.icons li {margin:1em 0; width:90%;  list-style-type:none;}
+.icons img {margin:0; max-width:50px; display:block;}
+.icons a {color:#444; text-decoration: none; border:none;}
+.icons a:hover {}
+.icons p {margin:0.65em 0 0;}
+
+@media screen and (min-width: 43.75em) {
+  .wrapper {max-width:700px;}
+  .icons li {float:left; margin:0 6% 0 0; width:10%;}
+  }
