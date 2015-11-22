@@ -27,17 +27,14 @@ a:hover {background: #139f85; color:#fff;}
 
 .icons .dribbble,
 .icons .behance,
-.icons .contact {display:block; padding-left:2em;}
+.icons .contact,
+.icons .codepen {display:block; padding-left:2em;}
 
 .icons .dribbble {background:url('images/dribbble.svg') no-repeat;}
 .icons .behance {background:url('images/behance.svg') no-repeat;}
 .icons .contact {background:url('images/email.svg') no-repeat;}
+.icons .codepen {background:url('images/codepen.svg') no-repeat;}
 
 @media only screen and (min-width:43.75em) {
 .wrapper {max-width:700px;}
 .icons li {float:left; margin:0 6% 0 0; width:25%;}
-<<<<<<< Updated upstream
-}
-=======
-}
->>>>>>> Stashed changes
