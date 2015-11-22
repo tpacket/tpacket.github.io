@@ -18,23 +18,30 @@ a:hover {background: #139f85; color:#fff;}
 .wrapper {margin:4em auto; width:100%;}
 .container {padding:0 1em;}
 
-.icons {margin:2em 0 0; padding:0; }
+.icons {margin:2em 0; padding:0;  overflow: hidden;}
 .icons li {margin:1em 0; width:90%;  list-style-type:none;}
-.icons img {margin:0; max-width:50px; display:block;}
+.icons img {margin:0; display:block;}
 .icons a {color:#444; text-decoration: none; border:none;}
-.icons a:hover {}
-.icons p {margin:0.65em 0 0;}
+.icons a:hover {background-color:#139f85;}
+.icons p {margin:0; padding:0.125em 0 0; font-size:1.1em; color:#777;}
 
 .icons .dribbble,
 .icons .behance,
 .icons .contact,
-.icons .codepen {display:block; padding-left:2em;}
+.icons .codepen {display:block; padding:0 0 0 2.35em;}
 
 .icons .dribbble {background:url('images/dribbble.svg') no-repeat;}
 .icons .behance {background:url('images/behance.svg') no-repeat;}
 .icons .contact {background:url('images/email.svg') no-repeat;}
 .icons .codepen {background:url('images/codepen.svg') no-repeat;}
 
-@media only screen and (min-width:43.75em) {
+@media only screen and (min-width:37.5em) {
 .wrapper {max-width:700px;}
-.icons li {float:left; margin:0 6% 0 0; width:25%;}
+.icons li {float:left; margin-right: 5%; width:20%; text-align: center;}
+.icons p {padding:0.35em 0 0;}
+.icons .dribbble,
+.icons .behance,
+.icons .contact,
+.icons .codepen {display:inline; padding:12% 0 0 2em;}
+
+}
