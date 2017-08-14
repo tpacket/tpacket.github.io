@@ -28,12 +28,14 @@ a:hover {background: #139f85; color:#fff;}
 .icons .dribbble,
 .icons .behance,
 .icons .contact,
-.icons .codepen {display:block; padding:0 0 0 2.35em;}
+.icons .codepen,
+.icons .twitter {display:block; padding:0 0 0 2.35em;}
 
 .icons .dribbble {background:url('images/dribbble.svg') no-repeat;}
 .icons .behance {background:url('images/behance.svg') no-repeat;}
 .icons .contact {background:url('images/email.svg') no-repeat;}
 .icons .codepen {background:url('images/codepen.svg') no-repeat;}
+.icons .twitter {background:url('images/twitter.svg') no-repeat;}
 
 @media only screen and (min-width:37.5em) {
 .wrapper {max-width:700px;}
@@ -42,9 +44,11 @@ a:hover {background: #139f85; color:#fff;}
 .icons .dribbble,
 .icons .behance,
 .icons .contact,
-.icons .codepen {display:inline; padding:12% 0 0 2em;}
+.icons .codepen,
+.icons .twitter {display:inline; padding:12% 0 0 2em;}
 .icons .dribbble:hover,
 .icons .behance:hover,
 .icons .contact:hover,
-.icons .codepen:hover {padding-top:1.1em;}
+.icons .codepen:hover,
+.icons .twitter:hover{padding-top:1.1em;}
 }
