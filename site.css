@@ -37,6 +37,17 @@ a:hover {background: #139f85; color:#fff;}
 .icons .codepen {background:url('images/codepen.svg') no-repeat;}
 .icons .twitter {background:url('images/twitter.svg') no-repeat;}
 
+
+  #top, #bottom, #left, #right {background: #139f85; position: fixed; z-index:999; }
+  
+	#left, #right { top: 0; bottom: 0; width: 10px;}
+	#left { left: 0; }
+	#right { right: 0; }
+		
+	#top, #bottom {left: 0; right: 0; height: 10px;}
+	#top { top: 0; }
+	#bottom { bottom: 0; }
+
 @media only screen and (min-width:37.5em) {
 .wrapper {max-width:700px;}
 .icons li {float:left; margin-right: 5%; width:20%; text-align: center;}
