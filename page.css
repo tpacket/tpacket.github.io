@@ -128,7 +128,7 @@ figcaption {margin:0.5em 0 0 0; color:#666; font-size:0.9em;}
 .hero-image {width:100%;}
 .hero-image:before {left:3%; height:93%;}
 
-.deco {position:absolute;  width:162px; height:255px; left:0; top:72vh; background:url('images/pattern2.svg') 100% 100% / contain no-repeat;}
+.deco {position:absolute;  width:162px; height:255px; left:-2.5em; top:72vh; background:url('images/pattern2.svg') 100% 100% / contain no-repeat;}
 }
 
 /* 1400px */
