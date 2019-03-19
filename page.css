@@ -1,5 +1,5 @@
 /*----------------------------------------
- Lasted Updated: 2018-08-28
+ Lasted Updated: 2019-03-19
 ----------------------------------------*/
 
 html {border-top:8px solid #fff;}
@@ -105,6 +105,7 @@ figcaption {margin:0.5em 0 0 0; color:#666; font-size:0.9em;}
 .hero-intro h2 {font-size:6.5rem;}
   .hero-intro h2:after {margin:-38px 0 0 0; height:38px; width:320px;}
 
+.social-links a {padding:1.25em;}
 .social-section .social-link-warp {text-align:left;}
 .social-section .social-link-warp:after {position:absolute; content:''; width:46%; height:3px; left:23%; top:38%; margin-top:1px; background:#b2babb;}
 .social-section .social-link-warp h3 {display:inline-block; float:right; margin:0.25em 0 0; padding:0 0 0 1em; background:#7F8C8D; position:relative; z-index:5;}
