@@ -99,7 +99,7 @@ header {display:none;}
 .top {width:90vw; margin:0 auto;}
 header {display:block;}
 header {position:fixed; background:#fff; background:rgba(252,252,252,.95);}
-.hero-image {margin-bottom:2rem;}
+.hero-image {margin:2em 0;}
 .work,
 .about {padding:6rem 0 2rem;}
 .contact {padding:2rem 0 2rem;}
