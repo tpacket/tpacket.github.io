@@ -26,10 +26,10 @@ body { width:100%; margin:0; padding:0; color:#eee; font:1.05rem/1.5rem var(--fo
 a { color:var(--highlight); -webkit-transition:0.5s; transition:0.5s; }
 a:hover { text-decoration:underline; color:var(--hover); }
 a:focus, a:active { outline: none; }
-p { margin-bottom:1.25rem; font-weight:400; font-family:var(--font-body); font-size:1.15rem; line-height:1.6; }
+p { margin-bottom:1.25rem; font-weight:400; font-family:var(--font-body); font-size:1rem; line-height:1.5; }
 ul, ol { display:block; margin-bottom:1.5em; }
 h1, h2, h3, h4, h5, h6 { color:#eee; font-family:var(--font-heading); margin:0 0 2.5rem 0; font-weight:normal; line-height:1.1; }
-h2 { margin:0 0 2rem; font-size:2.25rem; }
+h2 { margin:0 0 2rem; font-size:2rem; }
 h3 { margin:1rem 0 1.25rem; font-size:2.25rem; color:var(--highlight); }
 img { max-width:100%; min-width:100%; width:auto; height:auto; border:none; vertical-align:bottom; -ms-interpolation-mode:bicubic; box-sizing:content-box; }
 
@@ -45,9 +45,9 @@ img { max-width:100%; min-width:100%; width:auto; height:auto; border:none; vert
   
 /* About */
 .section-about { margin-top:4rem; }
-.section-about h2 { margin:0 0 1rem; font-size:3.5rem; line-height:1.2; }
+.section-about h2 { margin:0 0 1rem; font-size:3.15rem; line-height:1.1; }
 
-.lede { margin:0 0 2.25rem; font-family:var(--font-heading); font-size:1.75rem; }  
+.lede { margin:0 0 2.25rem; font-family:var(--font-heading); font-size:1.5rem; }  
   .lede span { margin-left:0.5rem; background:var(--highlight); box-shadow:-0.4rem 0 0 var(--highlight), 0.4rem 0 0 var(--highlight); color:#222; }
   
 .section-highlights { margin-top:4rem; }
@@ -115,6 +115,7 @@ footer { grid-column:1/10; margin:5rem 0 0; padding:1rem 0 0.5rem; display:grid;
 @media only screen and (min-width:48em){	
 h2 { font-size:3rem; }
 h3 { font-size:2.5rem; }
+p { font-size:1.15rem; line-height:1.6; }
 .section-highlights ul { columns:2;
   			     -webkit-columns:2; }
 }
@@ -131,7 +132,7 @@ h3 { font-size:2.5rem; }
 .section-about { grid-column:2/9; position:relative; padding:0 0 0 4rem; }
 .section-about .rotate .subhead { font-size:0.9rem; text-transform:uppercase; letter-spacing:1em; -webkit-transform:rotate(90deg); transform:rotate(90deg); -webkit-transform-origin:left top 0; transform-origin:left top 0; position:relative;}
 .section-about.header { grid-column:2/7; padding:0; }
-.section-about.header h2 { font-size:6rem; }
+.section-about.header h2 { font-size:6rem; line-height:1.2; }
 .section-about.header span { display:block; }
 
 .section-highlights { grid-column:2/9; margin-top:3.25rem; padding:0 0 0 4rem; }
