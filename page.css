@@ -44,7 +44,8 @@ img { max-width:100%; min-width:100%; width:auto; height:auto; border:none; vert
 .no-break { white-space:nowrap; }
   
 /* About */
-.section-about { margin-top:4rem; }
+.section-about { margin-top:1.75rem; }
+.section-about.header { margin-top:4rem; }
 .section-about h2 { margin:0 0 1rem; font-size:3.15rem; line-height:1.1; }
 
 .lede { margin:0 0 2.25rem; font-family:var(--font-heading); font-size:1.5rem; }  
@@ -129,7 +130,7 @@ p { font-size:1.15rem; line-height:1.6; }
 .lede { margin-bottom:2.25rem; font-family:var(--font-heading); font-size:2.2rem; } 
 
 .section { margin-left:0; margin-right:0; }
-.section-about { grid-column:2/9; position:relative; padding:0 0 0 4rem; }
+.section-about { grid-column:2/9; position:relative; margin-top:4rem; padding:0 0 0 4rem; }
 .section-about .rotate .subhead { font-size:0.9rem; text-transform:uppercase; letter-spacing:1em; -webkit-transform:rotate(90deg); transform:rotate(90deg); -webkit-transform-origin:left top 0; transform-origin:left top 0; position:relative;}
 .section-about.header { grid-column:2/7; padding:0; }
 .section-about.header h2 { font-size:6rem; line-height:1.2; }
