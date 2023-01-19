@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
   <meta charset="utf-8">
   <meta name="author" content="Taylor Packet Johnson">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Taylor Packet Johnson | Visual Designer</title>
-  <meta property="og:title" content="Taylor Packet Johnson - Visual Designer">
-  <meta property="og:description" name="description" content="Taylor Packet Johnson is a visual designer with a passion for crafting beautiful, human-centered digital experiences.">
-  <meta name="application-name" content="Taylor Packet Johnson | Visual Designer">
-  <meta property="og:site_name" content="Taylor Packet Johnson |Visual Designer">
+  <meta property="og:title" content="Taylor Packet Johnson - UX/UI Designer">
+  <meta property="og:description" name="description" content="Taylor Packet Johnson is a UX/UI Designer with a passion for crafting beautiful, human-centered digital experiences.">
+  <meta name="application-name" content="Taylor Packet Johnson | UX/UI Designer">
+  <meta property="og:site_name" content="Taylor Packet Johnson | UX/UI Designer">
   <link rel="canonical" href="https://www.taylorpacket.com">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@teapacket_">
@@ -19,113 +17,137 @@
   <meta property="og:image" content="https://www.taylorpacket.com/images/og-image.jpg">
   <meta property="og:locale" content="en_US">
   <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="icon" href="https://static.nd.edu/images/webclips/tartan/webclip-57.png">
-  <link rel="icon" sizes="72x72" href="https://static.nd.edu/images/webclips/tartan/webclip-72.png">
-  <link rel="icon" sizes="114x114" href="https://static.nd.edu/images/webclips/tartan/webclip-114.png">
-  <link rel="icon" sizes="144x144" href="https://static.nd.edu/images/webclips/tartan/webclip-144.png">
   <link rel="stylesheet" href="page.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
-  <script src="js/modernizr-2.6.2.min.js"></script>
-  <!-- FOR IE9 below -->
-  <!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">   
+  <script src="script.js"></script>
 </head>
 
-<body>
-  <div class="grid-overlay">
-    <div class="height-100">
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-      <div class="grid-line col" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
-    </div>
-  </div>
+<body>  
+    
   <div class="wrapper">
     <div class="container">
+        
+     <nav role="navigation" class="navigation-items">
+         <a href="index.html" class="current">Home</a>
+         <a href="about.html">About</a>
+         <a href="mailto:tpacket@gmail.com">Contact</a>       
+     </nav>        
+        
+<div class="button sun" id="button" onclick="toggleDark();">
+  <div class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="30" height="30">
+  <path d="M47.5 32.4a14 14 0 0 1-16.8 17.2" fill="none" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+  <path d="M24.1 45.9a14 14 0 0 1 19.8-19.8M34 6v8M12 36H4m8-22l7 7"
+  fill="none" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+  <path fill="none" stroke-miterlimit="10"
+  stroke-width="2" d="M55 15L13 57" stroke-linejoin="round" stroke-linecap="round"></path>
+</svg>
+ </div>
+</div>
 
-      <!----- // About // ----->
-      <div class="section section-about header">
-        <h2>Hi! My name <span>is Taylor.</span></h2>
+      <div class="section section-intro header animate">
+        <p class="name">Taylor Packet Johnson</p>
+        <h1>UX/UI Designer with a passion for crafting beautiful, human-centered digital experiences.</h1>
       </div>
 
-      <div class="section section-about animate-box">
-        <div class="rotate">
-          <h2 class="subhead">About me</h2>
-        </div>
 
-        <p class="lede">I'm a visual designer <span>with a passion for crafting beautiful, human-centered digital experiences.</span></p>
-        <p>I currently work for Starforge Systems as the Lead UX Designer where I craft various seamless digital experiences that are intuitive and impactful.</p>
-                    
-        <p>Outside of design, I enjoy exploring nature, playing <a href="https://instagram.com/teapacket.acnh">Animal Crossing</a>, watching anime, and spending time with the people and animals I love. <span class="no-break" aria-label="An emotion that shows someone throwing sparkles." role="img">(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧.</span></p>
-        <!--<p> At this time, I am not taking on any new side projects as I've switched my priorities to focusing on life and being in the moment. I do, however, donate my time to nonprofit organizations in need of any design (or physical) work. So if you're a part of a nonprofit or know of anyone who wants to make the world a better place, <a href="mailto:tpacket@gmail.com">shoot me an email</a>.</p>-->    
-      </div>
-      <!-- End About -->
-
-      <!----- // Highlights // ----->
-      <div class="section section-highlights">
-        <!--<h2>What's most important to me</h2>-->
-        <ul>
-          <li class="icon accessibility"><p>Accessibility</p></li>
-          <li class="icon detail"><p>Attention to detail</p></li>
-          <li class="icon ui"><p>Clean UX/UI</p></li>
-          <li class="icon code"><p>Organized HTML/CSS</p></li>
-        </ul>
-
-      </div>
-      <!-- End Highlights -->
-
-      <!----- // Projects //
+      <!----- // Projects // ----->
       <div class="section section-work">
-        <h2>Selected Work</h2>
 
-        <div class="project s1">
-          <a class="project-img" href="https://www.nd.edu/stories/commencement-2022/">
-            <img src="images/project-commencement-1200.jpg" alt="A black and white screenshot of a webpage.">
+        <div class="project">
+          <a class="project-img" href="starforge.html">
+            <img src="images/project-starforge.jpg" alt="A screenshot of a dark product page featuring a glowing green gaming PC.">
           </a>
 
           <div class="project-desc">
-            <h3><span>ND.edu Commencement Celebration Hub</span></h3>
-            <p>The University of Notre Dame recently launched their first commencement celebration webpage. The goal was to highlight important ceremony moments and have a space for users to revisit the special day.</p>
-            <p><strong>My involvement:</strong> Goal setting, prototyping, web design/development, testing, maintenance</p>
-
-            <p class="right"><a class="more" href="https://www.nd.edu/stories/commencement-2022/">Visit Page</a></p>
+            <h2>Starforge Systems – Ecommerce Website</h2>
+            <p>An overhauled e-commerce experience for a PC gaming company, while staying true to the brand of the best PCs in the Universe.</p>
+            <p><span>Research • UX/UI • Web • Responsive • Accessibility</span></p>
+            <p><a class="more" href="starforge.html">View Project Highlights</a></p>
           </div>
         </div>
+          
+          
+        <div class="project">
+          <a class="project-img" href="https://dribbble.com/shots/18603165-HELLOFROM-Questionnaire-Onboarding">
+            <img src="images/project-hellofrom.jpg" alt="Three screenshots of a mobile web app displaying an onboarding process with illustrations, text, and buttons.">
+          </a>
 
-        <div class="project s2">
+          <div class="project-desc">
+            <h2>HELLOFROM &ndash; Questionnaire Onboarding</h2>
+            <p>A web platform onboarding flow where the data and information gathered are crucial to providing a tailored version of the product.</p>
+            <p><span>Iconography • Research • UX/UI • Web • Responsive</span></p>
+            <p><a class="more" href="https://dribbble.com/shots/18603165-HELLOFROM-Questionnaire-Onboarding">View Project on Dribbble &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></p>
+          </div>
+        </div>
+          
+          
+        <div class="project">
           <a class="project-img" href="https://dribbble.com/shots/15721953-GittaSitta-Mobile-App">
-            <img src="images/project-gitta-1200.jpg" alt="Black and white screenshots of a mobile app.">
+            <img src="images/project-gitta.jpg" alt="An assortment of screenshots of a mobile app displaying different screens.">
           </a>
 
           <div class="project-desc">
-            <h3>GittaSitta Babysitting Mobile App</h3>
-            <p>GittaSitta is helping parents get their time back by creating an easier way to book the sitters they already know and trust.</p>
-            <p><strong>My involvement:</strong> Branding, UX/UI, web design, worked closely with software developers</p>
-            <p class="right"><a class="more" href="https://dribbble.com/shots/15721953-GittaSitta-Mobile-App">View on Dribbble</a></p>
+            <h2>GittaSitta – Babysitting App</h2>
+            <p>A re-imagined mobile app experience of lining up a sitter through your own trusted network for today's parents.</p>
+            <p><span>Branding • Research • UX/UI • Accessibility</span></p>
+            <p><a class="more" href="https://dribbble.com/shots/15721953-GittaSitta-Mobile-App">View Project on Dribbble &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></p>
           </div>
         </div>
+          
+        <div class="project">
+          <a class="project-img" href="https://dribbble.com/shots/20431201-Frost-Control-Systems">
+            <img src="images/project_homepage-frost.jpg" alt="A mobile and desktop screenshot of a web app featuring a map.">
+          </a>
 
+          <div class="project-desc">
+            <h2>Frost Control Systems – App Interface</h2>
+            <p>A web app designed for Frost Technologies, a US based manufacturer and service provider of hyperlocal IoT Weather Sensors.</p>
+            <p><span>Branding • UX/UI • Accessibility</span></p>
+            <p><a class="more" href="https://dribbble.com/shots/20431201-Frost-Control-Systems">View Project on Dribbble &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></p>
+          </div>
+        </div>
+          
+          
+          <div class="project">
+          <a class="project-img" href="https://www.nd.edu/stories/commencement-2022/">
+            <img src="images/project-commencement.jpg" alt="A screenshot of a landing page featuring a large title and photo of recent college graduates.">
+          </a>
 
+          <div class="project-desc">
+            <h2>University of Notre Dame &ndash; Commencement Celebration Hub</h2>
+            <p>A landing page to highlight important ceremony moments and a space for graduates and their families to revisit the special day.</p>
+            <p><span>Branding • Research • Web • Responsive</span></p>
+            <p><a class="more" href="https://www.nd.edu/stories/commencement-2022/">Visit the Live Page &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></p>
+          </div>
+        </div>
+          
+        <div class="project">
+          <a class="project-img" href="illustrations.html">
+            <img src="images/illustration-justice.jpg" alt="A graphical collage of Lady Justice layered on top of newspaper cuttings and other pieces of paper.">
+          </a>
+
+          <div class="project-desc">
+            <h2>Illustrations and Digital Art</h2>
+            <p>On top of my normal experience, I also enjoy creating illustrations and  digital art for fun or when I have an opportunity to do so. I aspire to be creative in other ways so I can continue to be excited and motivated about all the possibilities.</p>
+            <p><a class="more" href="illustrations.html">View Various Projects</a></p>
+          </div>
+        </div>
+          
       </div>
-       ----->
-
-      <footer>
+       <!---- End Projects ----->
+        
+    <footer>
 	       <div class="copyright">
-          <p>Made with <span aria-label="love" role="img">♥</span> by yours truly.</p>
+          <p>Made with <span aria-label="love" role="img"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#c74358"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"></path></svg></span> by yours truly.</p>
 	       </div>
 	      <div class="social-links">
-          <a aria-label="Dribbble" href="https://dribbble.com/tpacket" style="background: url('images/dribbble.svg') 0 4px no-repeat;"></a>
-          <a aria-label="Behance" href="https://www.behance.net/tpacket" style="background: url('images/behance.svg') 0 4px no-repeat;"></a>
-          <a aria-label="Twitter" href="https://twitter.com/teapacket_" style="background: url('images/twitter.svg') 0 4px no-repeat;"></a>
-          <a aria-label="LinkedIn" href="https://www.linkedin.com/in/taylor-packet-446b0335" style="background: url('images/linkedin.svg') 0 4px no-repeat;"></a>
+          <a aria-label="Dribbble" href="https://dribbble.com/tpacket"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path><path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path><path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path></svg></a>
+          <a aria-label="LinkedIn" href="https://www.linkedin.com/in/taylor-packet-446b0335"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
         </div>
       </footer>
 
