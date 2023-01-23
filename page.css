@@ -192,9 +192,9 @@ h2.section-header span:after {top:10px; left:-6rem; width:52px; }
 .section-project_img { grid-column:1/11; margin:3rem 0 0; }
 .section-project_about { grid-column:1/8; }
     
-    .section-process div,
+.section-process div,
 .section.col-2 div,
-.section-project_img { margin:0 0 4rem; }
+.section-project_img { margin-bottom: 4rem; }
 
 .copyright { grid-column:1/6; text-align:left; }
 .social-links { grid-column:6/10; text-align:right; justify-content:right; }
