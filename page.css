@@ -53,6 +53,7 @@ img { max-width:100%; min-width:100%; width:auto; height:auto; border:none; vert
 .navigation-items a { position: relative; margin:0 0.5rem; padding:1rem 0 0.4rem; color:#656565; font-size:0.85rem; text-transform:uppercase; text-decoration:none; letter-spacing:1px; }
 .navigation-items a:after { bottom:0; width:0; content: ""; display: block; height: 2px; left:50%; position:absolute; background:var(--gray-purple-dark); transition:width 0.3s ease 0s, left 0.3s ease 0s; }
 .navigation-items a:hover:after { width:100%; left:0; }
+.navigation-items .current:after { bottom:0; width:100%; left:0; content: ""; display: block; height: 2px; position:absolute; background:var(--gray-purple-dark); }
  
 /* Home - Intro */
 .name,
