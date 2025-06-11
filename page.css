@@ -176,7 +176,7 @@ h2.section-header span:after {top:10px; left:-6rem; width:52px; }
 .section { grid-column:1/10;  }
     
 .navigation-items { margin-bottom:9rem; }   
-    .section-about .avatar { width:100%; }
+    .section-about .avatar { width:100%; margin:0.5rem 0; }
     
 .section-process,
 .section.col-3 { display:grid; grid-template-columns:repeat(4, 1fr); column-gap:var(--grid-gap); }
