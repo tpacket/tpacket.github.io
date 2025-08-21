@@ -68,9 +68,9 @@ img { max-width:100%; min-width:100%; width:auto; height:auto; border:none; vert
 .section-about .avatar img { border-radius:43% 57% 42% 58% / 55% 47% 53% 45%; }
 
 .section-process,
-.section.col-3 { margin:8rem 0 0; }
-.section.col-2 { margin:8rem 0 4rem; }
-.section.col-2.stacked.top { margin:8rem 0 0; }
+.section.col-3,
+.section.col-2 { margin:6rem 0 0; }
+.section.col-2.stacked.top { margin:6rem 0 0; }
 .section.col-2.stacked,
 .section.section-project_img.stacked { margin:0; }
 .section-process div,
