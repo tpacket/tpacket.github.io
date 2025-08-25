@@ -55,6 +55,11 @@ img { max-width:100%; min-width:100%; width:auto; height:auto; border:none; vert
 .navigation-items a:after { bottom:0; width:0; content: ""; display: block; height: 2px; left:50%; position:absolute; background:var(--gray-purple-dark); transition:width 0.3s ease 0s, left 0.3s ease 0s; }
 .navigation-items a:hover:after { width:100%; left:0; }
 .navigation-items .current:after { bottom:0; width:100%; left:0; content: ""; display: block; height: 2px; position:absolute; background:var(--gray-purple-dark); }
+
+.navigation-items a.btn { border: 1px solid #999; transition:all 0.4s; border-radius: 6px; padding: 0.75rem 1rem; }
+.navigation-items a.btn:hover:after { content:none;}
+.navigation-items a.btn:hover { background:#eee}
+}
  
 /* Home - Intro */
 .name,
