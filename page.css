@@ -13,6 +13,10 @@
 /* ----------------------------------------------------
    Base Elements
 ---------------------------------------------------- */
+html, body {
+  overflow-x: hidden;
+}
+
 html {
   width: 100%;
   margin: 0;
@@ -54,7 +58,7 @@ p {
   font-weight: 400;
   font-family: var(--font-body);
   font-size: 1.15rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #444;
 }
 
@@ -78,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin: 0 0 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -214,7 +218,7 @@ img {
 .lede,
 .lede p {
   margin: 0 0 1.5rem;
-  font-size: 1.45rem;
+  font-size: 1.3rem;
 }
 
 .name {
@@ -245,11 +249,11 @@ img {
 .section-process,
 .section.col-3,
 .section.col-2 {
-  margin: 6rem 0 0;
+  margin: 4rem 0 0;
 }
 
 .section.col-2.stacked.top {
-  margin: 6rem 0 0;
+  margin: 4rem 0 0;
 }
 
 .section.col-2.stacked,
@@ -264,7 +268,8 @@ img {
   margin: 0 0 2rem;
 }
 
-.section-project_img img {
+.section-project_img img,
+img {
   border-radius: 20px;
 }
 
@@ -321,6 +326,7 @@ h2.section-header span:after {
 
 .swiper {
   width: 107%;
+  overflow: visible !important;
   padding: 2rem 0;
   grid-column: 1 / 13 !important;
   margin-right: -2rem !important;
@@ -392,7 +398,7 @@ h2.section-header span:after {
 }
 
 .project-desc.more {
-  margin-top: auto;
+  margin-top: 1rem;
 }
 
 .card-item__media {
@@ -401,6 +407,9 @@ h2.section-header span:after {
   padding-bottom: 74%;
   position: relative;
   transition: opacity 0.3s ease-out;
+}
+.card-item__media img {
+border-radius: 20px 20px 0 0;  
 }
 
 .card-item__media-image {
@@ -503,7 +512,6 @@ footer {
    Columns
 ---------------------------------------------------- */
 .col-3 strong {
-  display: block;
   font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -599,11 +607,14 @@ footer {
   .wrapper { margin: 2rem 0 0; }
 
   .container {
+    max-width:1600px;
     display: grid;
     margin: 0 auto;
     grid-template-rows: auto;
     grid-template-columns: repeat(12, 1fr);
   }
+    
+    
 
   .swiper {
     width: 100%;
@@ -658,8 +669,9 @@ footer {
     grid-gap: var(--grid-gap);
   }
 
+    
   .about-intro { grid-column: 1 / 10; grid-row: 1; }
-
+    
   .avatar { grid-column: 10 / 15; }
 
   .section-work {
@@ -672,9 +684,7 @@ footer {
 
   .section-work .project { grid-column: auto / span 5; margin: 0 0 3rem; }
 
-  .section-project_img { grid-column: 1 / 11; margin: 5rem 0 0; }
-
-  .section-project_about { grid-column: 1 / 8; }
+  .section-project_img { margin: 2rem 0 0; }
 
   .section-process div,
   .section.col-3 div,
@@ -698,7 +708,7 @@ footer {
   .section-process,
   .section.col-3 {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     column-gap: var(--grid-gap);
   }
 
@@ -706,20 +716,20 @@ footer {
   .section.col-3 .section-header { grid-column: 1 / 12; }
 
   .section-process div,
-  .section.col-3 div { grid-column: span 3; }
+  .section.col-3 div { grid-column: span 4; }
 
-  .section-project_img { margin: 5rem -4rem 0; }
+  .section-project_img { margin: 4  rem 0 3rem; }
 
   .margin-left { margin-left: -4rem !important; }
   .margin-right { margin-right: -4rem !important; }
 
   .col-3 {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     column-gap: 1rem;
   }
 
-  .col-3 div { grid-column: span 3; }
+  .col-3 div { grid-column: span 4; }
   .col-3 .section-header { grid-column: 1 / 11; }
 }
 
