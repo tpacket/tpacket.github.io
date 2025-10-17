@@ -126,7 +126,7 @@ img {
    Layout & Animation
 ---------------------------------------------------- */
 .wrapper {
-  margin: 2rem;
+  margin: 2rem 1rem;
 }
 
 @keyframes slide-down {
