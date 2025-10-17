@@ -398,7 +398,8 @@ h2.section-header span:after {
 }
 
 .project-desc.more {
-  margin-top: 1rem;
+  margin-top: auto;
+  padding-top:1.5rem;
 }
 
 .card-item__media {

@@ -200,16 +200,16 @@ width="30" height="30">
 
   const swiperInstance = new Swiper('.swiper', {
     slidesPerView: 1.25,
-    spaceBetween: 24,
+    spaceBetween: 18,
     loop: false,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-      768: { slidesPerView: 2.65, spaceBetween: 20 },
+      768: { slidesPerView: 1.85 },
       1024: { slidesPerView: 2.5 },
-      1440: { slidesPerView: 2.49 },
+      1440: { slidesPerView: 2.49, spaceBetween: 24 },
     },
   });
 
