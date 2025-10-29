@@ -527,7 +527,11 @@ footer {
 }
 
 .dark-mode h1,
-.dark-mode h2 { color: #eee; }
+.dark-mode h2,
+.dark-mode .swiper-button-prev::after,
+.dark-mode .swiper-button-next::after { color: #eee; }
+
+.dark-mode .more { stroke: #eee; }
 
 .dark-mode a { color: #aaa; }
 
@@ -554,6 +558,7 @@ footer {
 .dark-mode .navigation-items a:after { background-color: #575663; }
 
 .dark-mode .section .step { color: #696975; }
+.dark-mode .more svg { stroke: #eee; }
 
 /* ----------------------------------------------------
    Scroll Button
